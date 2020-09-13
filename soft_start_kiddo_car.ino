@@ -1,7 +1,7 @@
 // =======================================================================================
 //                  PowerWheels Conversion-- Jeep Wrangler
 // =======================================================================================
-//                            Written By: PatchBOTS
+//                            Written By: PatchBOTS (Thank you so much!)
 //                            Modified By: vintagegamingsystems
 // =======================================================================================
 //                     microcontroller  ---  Sparkfun Pro Micro (5v)
@@ -49,10 +49,9 @@
 #define speedOne 2  //defines Pin 2 on the Arduino for Speed1
 #define speedTwo 3  //defines Pin 3 on the Arduino for Speed2
 #define speedThree 4 //defines Pin 4 on the Arduino for Speed3
-#define Switch  5 //defines Pin 5 on the Arduino for the digital switch at the gas pedal
+#define Switch  5 //defines Pin 5 on the Arduino for the gas pedal using the DC-DC converter (Variable DC voltage input to 5V output to pin 5)
 #define enR 7  // This gets wired to R_EN on the BTS7960 motor controller. 
 #define enL 6  // This gets wired to L_EN on the BTS7960 motor controller. 
-// Changed this so I could input 5volts for gas pedal detection.
 #define RPWM 9  // Wire this to RPWM on the BTS7960 motor controller. 
 #define LPWM 10 // This isn't used in the code.  It would give us a reverse function via the motor controller, which isn't really useful in this setting. 
 
@@ -62,7 +61,6 @@ int speed1 = 1; //all the speed control pins and the switch at the gas pedal wor
 int speed2 = 1;
 int speed3 = 1;
 int gasSwitch = 1;
-
 int pwmWrite = 0; //default boot up speed is 0
 int rampSpeed; //this will be the starting point of our "ramp ups" in Speed 2 and Speed 3
 
@@ -75,7 +73,7 @@ void setup() {  //this section just tells the arduino what pins will be doing wh
   pinMode (speedOne, INPUT_PULLUP);
   pinMode (speedTwo, INPUT_PULLUP);
   pinMode (speedThree, INPUT_PULLUP);
-  pinMode (Switch, OUTPUT); // Changed this so I could input 5volts for gas pedal detection.
+  pinMode (Switch, OUTPUT); // Changed this so I could input 5volts into pin 5 for gas pedal detection.
    //pinMode (Switch, INPUT_PULLUP); 
   pinMode (enR, OUTPUT);
   pinMode (enL, OUTPUT);
@@ -144,8 +142,7 @@ void loop() {  //THIS IS THE START OF OUR MAIN LOOP
         analogWrite(RPWM, rampSpeed);
         Serial.println(RPWM);
     }
-      analogWrite(RPWM, rampSpeed);
-      //analogWrite(RPWM, rampSpeed); //write the current value of rampSpeed (when the if statement catches up to the final "pwmWrite" speed, it will hang there until the foot is taken off the gas).
+      analogWrite(RPWM, rampSpeed); //write the current value of rampSpeed (when the if statement catches up to the final "pwmWrite" speed, it will hang there until the foot is taken off the gas).
       gasSwitch = digitalRead(Switch); //check again to see to if gas pedal is pressed.
     }
   }
