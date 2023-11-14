@@ -26,5 +26,5 @@ Drive/Park/Reverse switch control
 direction
 	
 Pitch angle sensor to limit motor speed
-- Implement MPU6050 pitch, yaw, and roll controls to
+- Implement MPU6050 sensor to track pitch, yaw, and roll to
 slow or stop vehicle when specific angles are reached. 
