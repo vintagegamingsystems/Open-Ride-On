@@ -19,14 +19,12 @@ This is an improvement over the Patchbots soft-start-code as it allows for slow 
 
 Future features: 
 
-Features Drive/Park/Reverse switch control
+Drive/Park/Reverse switch control
 
-  - Control motor direction depending on drive mode selection
-    
-  - Slow to complete stop before proceeding in different 
-	direction
+- Control motor direction depending on drive mode selection
+- Slow to complete stop before proceeding in different 
+direction
 	
 Pitch angle sensor to limit motor speed
-
-	- Implement MPU6050 pitch, yaw, and roll controls to
-	slow or stop vehicle when specific angles are reached. 
+- Implement MPU6050 pitch, yaw, and roll controls to
+slow or stop vehicle when specific angles are reached. 
