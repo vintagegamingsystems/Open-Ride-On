@@ -16,3 +16,17 @@ Project Box - Just a plastic housing for your Arduino, H-bridge,and wires to go 
 If using driven rubber tires or tires with better traction, be sure to set the deceleration so that it does not decelerate too quickly or it will destroy the plastic gears in the gearbox and possibly break the gearbox housing. Ask me how I know... :)
 
 This is an improvement over the Patchbots soft-start-code as it allows for slow deceleration of the vehicle instead of abruptly stopping when the accelerator is not being pressed. 
+
+Future features: 
+
+Features Drive/Park/Reverse switch control
+
+  - Control motor direction depending on drive mode selection
+    
+  - Slow to complete stop before proceeding in different 
+	direction
+	
+Pitch angle sensor to limit motor speed
+
+	- Implement MPU6050 pitch, yaw, and roll controls to
+	slow or stop vehicle when specific angles are reached. 
