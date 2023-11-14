@@ -1,4 +1,4 @@
-# Open-Ride-on-Car
+# Open-Ride-On
 
 Kids ride-on eletric cars for children arduino project. Allows the soft start and soft slowdown of IBT_2 H-bridge using Arduino.
 
