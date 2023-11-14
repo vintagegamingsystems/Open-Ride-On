@@ -13,4 +13,6 @@ IBT_2 H-Bridge <br>
 12v or 24v - 5v adapter - You can use a USB car charger if you would like to. <br>
 Project Box - Just a plastic housing for your Arduino, H-bridge,and wires to go inside. You can make it out of Legos if you want to. 
 
+If using driven rubber tires be sure to set the deceleration so that it does not decelerate too quickly or it will destroy the plastic gears in the gearbox and possibly break the gearbox housing. Ask me how I know... :)
+
 This is an improvement over the Patchbots soft-start-code as it allows for slow deceleration of the vehicle instead of abruptly stopping when the accelerator is not being pressed. 
