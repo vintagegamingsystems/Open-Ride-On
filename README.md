@@ -9,9 +9,10 @@ I will add further notes, pictures, and further features soon.
 The below items will be needed to perform this upgrade:
 
 Arduino - I use the micro <br>
-IBT_2 BTS7960 H-Bridge <br>
+IBT_2 BTS7960 H-Bridge (43amp max and control for up to 27volts)<br>
 12v or 24v - 5v adapter - You can use a USB car charger if you would like to. <br>
 Project Box - Just a plastic housing for your Arduino, H-bridge,and wires to go inside. You can make it out of Legos if you want to. 
+X switch for polarity reversal - Eventually I would like to control a three position switch for when the drive/park/reverse switch code is written and tested.   
 
 If using driven rubber tires or tires with better traction, be sure to set the deceleration so that it does not decelerate too quickly or it will destroy the plastic gears in the gearbox and possibly break the gearbox housing. Ask me how I know... :)
 
