@@ -40,5 +40,11 @@ Parallel connection of IBT_2 BTS7960 H-Bridge for higher amperage applications<b
 
   
 	- The IBT_2 BTS7960 is rated for 43amp and can control up to 27volts. I have seen them fail with much less than 43amp run through them.
+
+For those driving four or more tires. <br>
+	Four-wheel drive / front-wheel drive / Rear wheel drive switching controlled by microcontroller
+
+Series and parallel wiring diagrams for similar performance to an open differential or limit slip differential.
+	- I
  
 
