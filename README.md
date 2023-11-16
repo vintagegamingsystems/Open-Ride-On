@@ -1,7 +1,7 @@
 # Open-Ride-On
 
 Ride-on eletric cars arduino project. Allows the soft start and soft slowdown of IBT_2 H-bridge using Arduino.
-	Here is a good write up related to the H-Bridge: https://www.hessmer.org/blog/2013/12/28/ibt-2-h-bridge-with-arduino/ although we be using an accelerator pedal to activate linear acceleration of the vehicle. 
+	Here is a good write up related to the H-Bridge: https://www.hessmer.org/blog/2013/12/28/ibt-2-h-bridge-with-arduino/ although we be using an accelerator pedal to activate automatic linear acceleration of the vehicle. The motor will also be ramping down when the acelerator pedal is not being depressed. 
  
 
 Using an Arduino and an IBT-2 H-bridge you can tune the acceleration and deceleraton of your child's ride on car.
