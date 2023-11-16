@@ -37,8 +37,6 @@ Future Testing: <br>
 Parallel connection of IBT_2 BTS7960 H-Bridge for higher amperage applications<br>
 	- I would like to test and see how these H-Bridges perform when wired in parallel.<br> 
  	- This may be a good application of larger two person ride on vehicles or for riders with more mass.<br>
-
-  
 	- The IBT_2 BTS7960 is rated for 43amp and can control up to 27volts. I have seen them fail with much less than 43amp run through them.
 
 For those driving four or more tires. <br>
