@@ -32,7 +32,8 @@ direction
 	
 Pitch angle sensor to limit motor speed<br>
 - Implement MPU6050 sensor to track pitch, yaw, and roll to
-slow or stop vehicle when specific angles are reached.<br> 
+slow or stop vehicle when specific angles are reached.<br>
+- This will be helpful for those using these vehicles in varying topography (hilly) as we can ramp down the motor based on the pitch of the vehicle. This will help the vehicle not runaway or maintain speed when it is going downhill.<br>
 
 Skid Steer Control - Forward/reverse control of tracks or wheels on left and right sides of vehicle
 
