@@ -35,7 +35,7 @@ Pitch angle sensor to limit motor speed<br>
 slow or stop vehicle when specific angles are reached.<br>
 - This will be helpful for those using these vehicles in varying topography (hilly) as we can ramp down the motor based on the pitch of the vehicle. This will help the vehicle not runaway or maintain speed when it is going downhill.<br>
 
-Skid Steer Control - Forward/reverse control of tracks or wheels on left and right sides of vehicle
+Skid Steer Control - Forward/reverse control of tracks or wheels on left and right sides of vehicle<br>
 
 Future Testing: <br>
 <br>
@@ -47,10 +47,10 @@ Parallel connection of IBT_2 BTS7960 H-Bridge for higher amperage applications<b
 - You could even run one H-bridge to each motor.<br>  
 
 For those driving four or more tires. <br>
-	- Four-wheel drive / front-wheel drive / Rear wheel drive switching controlled by microcontroller.<br>
-	- Series and parallel switching of motors with microcontroller or by switching<br>
+- Four-wheel drive / front-wheel drive / Rear wheel drive switching controlled by microcontroller.<br>
+- Series and parallel switching of motors with microcontroller or by switching<br>
  
 Series and parallel wiring diagrams for similar performance to an open differential or limit slip differential.<br>
-	- In testing different wiring schemes I have found that wiring two motors in series performs like an open differential. It makes sense as when one motor is stopped the other motor gets the rest of the power. I found that wiring two or motors in parallel performs more like a limited slip differential. This is helpful when wiring the front axle to be powered in a four-wheel drive application as it will steer better and have less drag from the motors if they are wired in series.  
+- In testing different wiring schemes I have found that wiring two motors in series performs like an open differential. It makes sense as when one motor is stopped the other motor gets the rest of the power. I found that wiring two or motors in parallel performs more like a limited slip differential. This is helpful when wiring the front axle to be powered in a four-wheel drive application as it will steer better and have less drag from the motors if they are wired in series.  
  
 
