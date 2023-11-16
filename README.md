@@ -9,7 +9,7 @@ I will add further notes, pictures, and further features soon.
 The below items will be needed to perform this upgrade:
 
 Arduino - I use the micro <br>
-IBT_2 H-Bridge <br>
+IBT_2 BTS7960 H-Bridge <br>
 12v or 24v - 5v adapter - You can use a USB car charger if you would like to. <br>
 Project Box - Just a plastic housing for your Arduino, H-bridge,and wires to go inside. You can make it out of Legos if you want to. 
 
@@ -28,3 +28,14 @@ direction
 Pitch angle sensor to limit motor speed
 - Implement MPU6050 sensor to track pitch, yaw, and roll to
 slow or stop vehicle when specific angles are reached. 
+
+Skid Steer Control - Forward/reverse control of tracks or wheels on left and right sides of vehicle
+
+Future Testing: 
+
+Parallel connection of IBT_2 BTS7960 H-Bridge for higher amperage applications
+	- I would like to test and see how these H-Bridges perform when wired in parallel. 
+ 	- This may be a good application of larger two person ride on vehicles or for heavier riders.
+	- The IBT_2 BTS7960 is rated for 43amp and can control up to 27volts. I have seen them fail with much less than 43amp run through them.
+ 
+
