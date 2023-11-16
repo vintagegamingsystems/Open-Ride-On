@@ -18,7 +18,7 @@ If using driven rubber tires or tires with better traction, be sure to set the d
 
 This is an improvement over the Patchbots soft-start-code as it allows for slow deceleration of the vehicle instead of abruptly stopping when the accelerator is not being pressed. 
 
-Future features:<br> 
+<b>Future features:</b><br> 
 
 Drive/Park/Reverse switch control<br>
 - Control motor direction depending on drive mode selection
