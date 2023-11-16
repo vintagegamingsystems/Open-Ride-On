@@ -21,7 +21,8 @@ The below items will be needed to perform this upgrade:
 Optional items:<br>
 - Ferrule connectors and Ferrule crimper<br>
 
-Note on vehicle traction:<br>
+<b>Note on vehicle traction:</b><br>
+<br>
 If using driven rubber tires or tires with better traction, be sure to set the deceleration so that it does not decelerate too quickly or it will destroy the plastic gears in the gearbox and possibly break the gearbox housing. Ask me how I know... :)<br>
 
 This is an improvement over the Patchbots soft-start-code as it allows for slow deceleration of the vehicle instead of abruptly stopping when the accelerator is not being pressed. <br>
